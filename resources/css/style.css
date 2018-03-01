@@ -78,3 +78,22 @@ h2, h4 {
 p {
   display: block;
 }
+#locations {
+  background-image: url("../img/location.jpg");
+  width: 1200px;
+  height: 500px;
+  padding-top: 62px;
+}
+.locations.flex-container {
+  width: 1100;
+  margin: 0 auto;
+  padding-top: 5px;
+  justify-content: space-around;
+}
+.location {
+  background-color: black;
+  width: 300px;
+  padding: 0px 20px;
+  display: flex;
+  flex-direction: column;
+}
